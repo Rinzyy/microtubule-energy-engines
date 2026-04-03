@@ -24,16 +24,6 @@ venv/
 # Jupyter
 .ipynb_checkpoints/
 
-# Generated media and artifacts
-*.png
-*.jpg
-*.jpeg
-*.gif
-*.mp4
-*.mov
-*.avi
-*.webm
-
 # Logs and temp
 *.log
 *.tmp

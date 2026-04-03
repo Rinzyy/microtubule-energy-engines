@@ -1,6 +1,6 @@
 # Microtubule Simulation Playground
 
-This repository contains three standalone simulation projects designed to build intuition around state-based dynamics, energy minimization, and stochastic search ideas connected to microtubule-inspired and quantum-cellular-automaton-style thinking.
+This repository contains four standalone simulation projects designed to build intuition around state-based dynamics, energy minimization, and stochastic search ideas connected to microtubule-inspired and quantum-cellular-automaton-style thinking.
 
 ## Projects
 
@@ -25,6 +25,13 @@ A Traveling Salesman optimizer using simulated annealing where thermal acceptanc
 - Stack: `numpy`, `matplotlib`
 - Run: `python simulate.py`
 
+### 4) `physarum-polycephalum-simulation`
+A vectorized slime mold simulation where thousands of simple agents move, sense trails, and self-organize into vein-like transport networks.
+
+- Core idea: emergent intelligence in a shared state lattice
+- Stack: `numpy`, `matplotlib`
+- Run: `python simulate.py`
+
 ## Quick Start
 
 ```bash
@@ -33,6 +40,7 @@ source .venv/bin/activate
 pip install -r stochastic-oscillator-grid/requirements.txt
 pip install -r discrete-hopfield-network/requirements.txt
 pip install -r traveling-salesman-annealing/requirements.txt
+pip install -r physarum-polycephalum-simulation/requirements.txt
 ```
 
 Then run any project from its folder.
